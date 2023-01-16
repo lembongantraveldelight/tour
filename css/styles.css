@@ -11423,6 +11423,7 @@ header.masthead h1, header.masthead .h1 {
 .text-justify {
   text-align: justify;
 }
+
 header.seaweed {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -11491,6 +11492,39 @@ header.snorkeling h1, header.snorkeling .h1 {
   }
 }
 
+
+header.mangrove {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(78,196,232,0.4) 0%, rgba(78,196,232,0.4) 100%), url("../assets/img/lembo/8.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.mangrove h1, header.mangrove .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.mangrove {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.mangrove {
+    font-size: 1.15rem;
+  }
+  header.mangrove h1, header.mangrove .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.mangrove h1, header.mangrove .h1 {
+    font-size: 3.5rem;
+  }
+}
 
 
 
